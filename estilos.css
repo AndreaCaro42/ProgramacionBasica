@@ -80,19 +80,31 @@ tr, td, th {
 
 .Genero{
 
-     display: inline ;
+   display: inline ;
      margin: 10px auto;
 
 }
 
-fieldset{
+/*fieldset{
     border: 2px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
-}
+}*/
 
 /*Abreviatura de lista desplegable*/ /*div>select>optg*2>option*3*/
 
+Input[type="text"], Input[type="number"], Input[type="email"],Input[type="password"], 
+textarea, select
+{
+    width: 95%; 
+    border-radius: 5%; 
+    padding: 15px auto; 
+    box-shadow: 3px;
+   }
+select {
+    width: 100%;
+   }
+  
 
 
 
